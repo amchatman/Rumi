@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+}
+.hero-image{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(hans-vivek.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+
+  width:100vw;
+  height:100vh;
+}
+.hero-content{
+  color:#FFFFFF;
+}
+.hero-content h1{
+  font-size:80px;
+  margin:8px;
+
+}
+.hero-content a{
+  border:2px solid #FFFFFF;
+  color:#FFFFFF;
+  font-size:24px;
+  text-decoration:none;
+
+}
