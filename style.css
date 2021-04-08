@@ -2,8 +2,9 @@
   margin:0;
   padding:0;
 }
+/* Hero Page content */
 .hero-image{
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(hans-vivek.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/hans-vivek.jpg);
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -16,18 +17,20 @@
   width:100vw;
   height:100vh;
 }
-.hero-content{
+.hero-content,.hero-content a{
   color:#FFFFFF;
 }
 .hero-content h1{
   font-size:80px;
-  margin:8px;
-
+  margin-top:150px;
 }
 .hero-content a{
-  border:2px solid #FFFFFF;
-  color:#FFFFFF;
+  background-color:#6C8C80;
+  border-radius:10px;
+  display:block;
   font-size:24px;
+  padding:1em;
+  margin:50px auto 0;
   text-decoration:none;
-
+  width:150px;
 }
