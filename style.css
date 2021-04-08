@@ -34,3 +34,21 @@
   text-decoration:none;
   width:150px;
 }
+/*Index page css*/
+.header-subscribe{
+  background-color:black;
+  font-family:roboto;
+  padding:10px
+}
+.header-subscribe p,.header-subscribe a{
+  color:#FFFFFF;
+  display:inline;
+}
+.header-subscribe p {
+  margin-left:30px;
+}
+.header-subscribe a{
+  float:right;
+  margin-right:35px;
+  text-decoration:none;
+}
