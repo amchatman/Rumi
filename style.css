@@ -59,11 +59,14 @@ body{
 .navigation p{
   display:inline;
 }
-.open-nav,.close-nav{
+.open-nav{
   color:#01070D;
   font-size:25px;
   margin:0 35px 0;
   text-decoration:none;
+}
+#toggle{
+  display:none;
 }
 .overlay-content{
   display:none;
@@ -79,4 +82,7 @@ body{
   font-size:17px;
   margin:0 20px 0;
   text-decoration:none;
+}
+#toggle:checked + .overlay-content{
+  display:block;
 }
