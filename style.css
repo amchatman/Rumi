@@ -2,6 +2,9 @@
   margin:0;
   padding:0;
 }
+body{
+  font-family:roboto;
+}
 /* Hero Page content */
 .hero-image{
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/hans-vivek.jpg);
@@ -34,21 +37,46 @@
   text-decoration:none;
   width:150px;
 }
-/*Index page css*/
-.header-subscribe{
-  background-color:black;
-  font-family:roboto;
-  padding:10px
+/*-- Index page --*/
+.header{
+  background-color:#01070D;
+  padding:10px;
 }
-.header-subscribe p,.header-subscribe a{
+.header p,.header a{
   color:#FFFFFF;
+}
+.header p{
+  text-align:center;
+  font-size:13px;
+}
+.header a{
+  display:none;
+  text-decoration:none;
+}
+.navigation{
+  background-color:#f5f5f5;
+}
+.navigation p{
   display:inline;
 }
-.header-subscribe p {
-  margin-left:30px;
+.open-nav,.close-nav{
+  color:#01070D;
+  font-size:25px;
+  margin:0 35px 0;
+  text-decoration:none;
 }
-.header-subscribe a{
-  float:right;
-  margin-right:35px;
+.overlay-content{
+  display:none;
+}
+.links{
+  background-color:#FFFFFF;
+}
+.links li{
+  padding:20px;
+}
+.links a{
+  color:#01070D;
+  font-size:17px;
+  margin:0 20px 0;
   text-decoration:none;
 }
