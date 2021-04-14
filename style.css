@@ -1,10 +1,9 @@
 *{
   margin:0;
   padding:0;
+  font-family:roboto,sans-serif;
 }
-body{
-  font-family:roboto;
-}
+
 /* Hero Page content */
 .hero-image{
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/hans-vivek.jpg);
@@ -37,75 +36,92 @@ body{
   text-decoration:none;
   width:150px;
 }
-/*-- Index page --*/
+/*Index content starts here*/
+
+/*Header Section*/
 .header{
-  background-color:#01070D;
-  padding:10px;
+  background:#26221F;
+  color:#FFFFFF;
+  padding:20px;
   overflow:hidden;
+}
+.header p{
+  float:left;
+}
+.header a,.mail{
+  float:right;
+  text-decoration:none;
 }
 .header p,.header a{
   color:#FFFFFF;
 }
-.header p{
-  float:left;
-  padding:0 30px 0;
+/*Navigation section*/
+.mid-nav{
+  background-color:#D9C7C1;
+  padding:20px;
 }
-.header a{
-  float:right;
-  padding:0 30px 0;
-  text-decoration:none;
-}
-.navigation{
-  background-color:#f5f5f5;
-}
-.logo{
+.logo-txt{
+  color:#FFFFFF;
   font-size:25px;
+  font-weight:bold;
   text-decoration:none;
 }
-#search{
-  display:inline;
+.search-bar{
+  margin-left:100px;
+  height:30px;
+  width:350px;
 }
-.open-nav,#toggle{
+.cart{
+  background-color:#8C5E4D;
+  color:#FFFFFF;
+  float:right;
+  text-decoration:none;
+}
+label{
+  font-size:26px;
   display:none;
 }
-.links{
-  background-color:#FFFFFF;
+#toggle-nav{
+  display:none;
 }
-.links li{
+.nav-links{
+  border-bottom:1px solid #D3D3D3;
+}
+.nav-links ul{
+  padding:20px;
+}
+.nav-links li{
   display:inline;
 }
-.links a{
-  color:#01070D;
-  font-size:17px;
-  margin:0 20px 0;
+.nav-links a{
+  margin:0 20px;
   text-decoration:none;
 }
 @media screen and (max-width:767px){
-  /*-- Index page --*/
   .header p{
-    font-size:13px;
-    float:none;
-    padding:0;
+    font-size:15px;
     text-align:center;
   }
-  .navigation p{
-    display:inline;
+  .header p,.cart{
+    float:none;
   }
-  .logo, #search, .search-button,.header a,#toggle,.overlay-content{
+  .header a,.logo-txt,.search-bar{
     display:none;
   }
-  .open-nav{
-    color:#01070D;
-    display:block;
-    font-size:25px;
-    margin:0 35px 0;
-    text-decoration:none;
+  .mid-nav{
+    padding:0;
   }
-  .links li{
+  label{
+    display:block;
+  }
+  .nav-links{
+    display:none;
+  }
+  .nav-links li{
     display:block;
     padding:20px;
   }
-  #toggle:checked + .overlay-content{
+  #toggle-nav:checked + .nav-links{
     display:block;
   }
 }
