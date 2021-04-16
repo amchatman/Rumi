@@ -62,6 +62,7 @@
 }
 .logo-txt{
   color:#FFFFFF;
+  font-family:Great Vibes;
   font-size:25px;
   font-weight:bold;
   text-decoration:none;
@@ -96,6 +97,12 @@ label{
 .nav-links a{
   margin:0 20px;
   text-decoration:none;
+}
+.image-container{
+  background-image:url("images/connor-jalbert.jpg");
+  background-position:center;
+  background-size: cover;
+  height:405px;
 }
 @media screen and (max-width:767px){
   .header p{
