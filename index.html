@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Rumi</title>
+    <title>Rumi Quotes</title>
 
   </head>
   <body>
     <!--Header Content-->
     <div class="header">
       <p>Filler Text goes here</p>
-      <a href="#">Subscribe</a>
+      <a href="#"><span class="material-icons mail-icon">mail</span>Subscribe</a>
     </div>
     <!--Navigation Content -->
     <div class=main-nav>
@@ -22,9 +23,12 @@
           <a href="index.html" class="logo-txt">Rumi Quotes</a>
 
           <!--Search Bar -->
-          <input type=text placeholder="Search" class="search-bar">
-          <button for="search-bar">Search</button>
-          <a href="#" class="cart">Cart</a>
+          <form action="#" class="search-form">
+            <input type=text placeholder="Search" class="search-bar">
+            <button class="search-button" for="search-bar"><span class="material-icons search-icon">search</span></button>
+          </form>
+
+          <a href="#" class="cart"><span class="material-icons">shopping_cart</span>Cart</a>
       </div>
 
       <!--Drop down menu -->

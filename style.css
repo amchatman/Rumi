@@ -36,6 +36,12 @@
   text-decoration:none;
   width:150px;
 }
+.mail-icon{
+  font-size:24px;
+  padding-right:5px;
+  position:relative;
+  top:5px;
+}
 /*Index content starts here*/
 
 /*Header Section*/
@@ -67,10 +73,34 @@
   font-weight:bold;
   text-decoration:none;
 }
+.search-form{
+  display:inline;
+  padding-left:200px;
+}
 .search-bar{
-  margin-left:100px;
+  border:1px solid #8C5E4D;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
   height:30px;
   width:350px;
+}
+.search-bar::placeholder{
+  padding-left:10px;
+}
+.search-button{
+  background-color:#8C5E4D;
+  border:1px solid #8C5E4D;
+  border-left:none;
+  border-top-right-radius:3px;
+  border-bottom-right-radius:3px;
+  position:relative;
+  top:6px;
+  right:5px;
+  height:32px;
+  width:30px;
+}
+.search-icon{
+  color:#FFFFFF;
 }
 .cart{
   background-color:#8C5E4D;
