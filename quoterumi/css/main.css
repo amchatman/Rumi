@@ -6,6 +6,11 @@ header{
 .page-wrap{
   padding:2em 0;
 }
+.widget{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
 nav{
   background:#EF8476;
   width:100%;
