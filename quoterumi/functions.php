@@ -37,6 +37,7 @@ register_nav_menus(
 
         'top-menu' => 'Top Menu Location',
         'mobile-menu' => 'Mobile Menu Location',
+        'footer-menu' => 'Footer Menu Location',
 
       )
 );

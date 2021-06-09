@@ -14,6 +14,7 @@
 
   </header>
   <nav>
+    <div class="container">
     <?php
         wp_nav_menu(
 
@@ -25,4 +26,5 @@
 
         );
      ?>
+   </div>
   </nav>
