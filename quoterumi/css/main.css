@@ -43,3 +43,22 @@ nav .top-bar li:last-child a{
 nav .top-bar li a:hover{
   color:#5BA6A7;
 }
+.search-form{
+  display:flex;
+  margin:0 100px;
+
+}
+.search-input{
+  border:1px solid #ffffff;
+  border-top-left-radius:8px;
+  border-bottom-left-radius:8px;
+
+}
+.search-input::placeholder{
+  padding-left:10px;
+}
+.search-button{
+  color:#ffffff;
+  background-color:#5BA6A7;
+  border:1px solid #5BA6A7;
+}

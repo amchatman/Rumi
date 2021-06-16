@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+
     <title></title>
 
 
@@ -15,6 +16,11 @@
   </header>
   <nav>
     <div class="container">
+
+      <a href="#"><?php echo get_bloginfo('name'); ?></a>
+
+      <?php get_search_form();?>
+
     <?php
         wp_nav_menu(
 

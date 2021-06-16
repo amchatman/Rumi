@@ -11,6 +11,7 @@ function load_css()
     wp_register_style('main', get_template_directory_uri() . '/css/main.css',
       array(),  false, 'all');
     wp_enqueue_style('main');
+
 }
 add_action('wp_enqueue_scripts','load_css');
 
@@ -58,8 +59,8 @@ function my_sidebars()
 
                     'name' => 'Page Sidebar',
                     'id' => 'page-sidebar',
-                    'before_title' => '<h4 class="widget-title">',
-                    'after_title' => '</h4>'
+                    'before_title' => '<h3 class="widget-title">',
+                    'after_title' => '</h3>'
 
                 )
           );
@@ -69,8 +70,8 @@ function my_sidebars()
 
                       'name' => 'Blog Sidebar',
                       'id' => 'blog-sidebar',
-                      'before_title' => '<h4 class="widget-title">',
-                      'after_title' => '</h4>'
+                      'before_title' => '<h3 class="widget-title">',
+                      'after_title' => '</h3>'
 
                   )
             );
