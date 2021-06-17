@@ -32,6 +32,7 @@ add_action('wp_enqueue_scripts','load_js');
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
 add_theme_support('widgets');
+add_theme_support( 'custom-header' );
 
 //Menus
 register_nav_menus(
@@ -77,4 +78,23 @@ function my_sidebars()
             );
 }
 add_action('widgets_init','my_sidebars');
+
+//Custom Header Settings
+$defaults = array(
+    'default-image'          => '',
+    'random-default'         => false,
+    'width'                  => 1200,
+    'height'                 => 200,
+    'flex-height'            => true,
+    'flex-width'             => true,
+    'default-text-color'     => '',
+    'header-text'            => true,
+    'uploads'                => true,
+    'wp-head-callback'       => '',
+    'admin-head-callback'    => '',
+    'admin-preview-callback' => '',
+    'video'                  => false,
+    'video-active-callback'  => 'is_front_page',
+);
+add_theme_support( 'custom-header', $defaults );
 ?>
