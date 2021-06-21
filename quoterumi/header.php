@@ -19,19 +19,37 @@
 
       <a href="#" class="site-name"><?php echo get_bloginfo('name'); ?></a>
 
+
       <?php get_search_form();?>
 
     <?php
+      //Desktop Menu Starts here
         wp_nav_menu(
 
           array(
 
             'theme_location' => 'top-menu',
-            'menu_class' => 'top-bar'
+            'menu_class' => 'top-bar',
+
           )
 
         );
      ?>
+     <?php
+       //Desktop Menu Starts here
+         wp_nav_menu(
+
+           array(
+
+             'theme_location' => 'mobile-menu',
+             'menu_class' => 'mobile-top-bar',
+
+           )
+
+         );
+      ?>
+
+
    </div>
   </nav>
   <div class="header-image">
