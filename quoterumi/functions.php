@@ -76,10 +76,21 @@ function my_sidebars()
 
                   )
             );
+            register_sidebar(
+
+                    array(
+
+                        'name' => 'Footer Column 1',
+                        'id' => 'footer-column-1',
+                        'before_title' => '<h6 class="footer-title">',
+                        'after_title' => '</h6>'
+
+                    )
+              );
 }
 add_action('widgets_init','my_sidebars');
 
-//Custom Header Settings
+//Custom Header Image Settings
 $defaults = array(
     'default-image'          => '',
     'random-default'         => false,
