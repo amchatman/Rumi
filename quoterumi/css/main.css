@@ -83,26 +83,44 @@ footer{
 footer .container{
   display:flex;
   height:100%;
+  justify-content:center;
 }
 footer .site-name{
   margin: 20px 30px;
   line-height:150px;
   vertical-align:middle;
+  font-size:20px;
 }
 footer .footer-bar{
   list-style:none;
-  margin-top:20px;
+  margin:20px 35px;
 }
 footer .footer-bar li{
-  padding-top:10px;
+  padding-top:5px;
 }
 footer .footer-bar li a{
   color:#ffffff;
   text-decoration:none;
 }
-.footer-title{
+.footer-widget-column-1, .footer-widget-column-2{
+  margin:20px 35px;
+}
+.footer-widget-column-3{
+  margin:80px 30px;
+}
+.footer-widget-column-3 .search-button{
+  background:#EF8476;
+  border:1px solid #EF8476;
+}
+.footer-widget-column-1 li,.footer-widget-column-2 li{
+  padding-top:10px;
+}
+.footer-title,.footer-title-2{
   color:#ffffff;
   font-weight:bold;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
 }
 .textwidget a{
   color:#ffffff;

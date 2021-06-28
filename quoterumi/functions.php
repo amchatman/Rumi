@@ -87,6 +87,30 @@ function my_sidebars()
 
                     )
               );
+
+              register_sidebar(
+
+                      array(
+
+                          'name' => 'Footer Column 2',
+                          'id' => 'footer-column-2',
+                          'before_title' => '<h6 class="footer-title-2">',
+                          'after_title' => '</h6>'
+
+                      )
+                );
+
+                register_sidebar(
+
+                        array(
+
+                            'name' => 'Footer Column 3',
+                            'id' => 'footer-column-3',
+                            'before_title' => '<h6 class="footer-title-3">',
+                            'after_title' => '</h6>'
+
+                        )
+                  );
 }
 add_action('widgets_init','my_sidebars');
 
