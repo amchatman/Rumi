@@ -142,9 +142,6 @@ footer .footer-bar li a{
   .search-form{
     display:none;
   }
-  .site-name{
-
-  }
   nav .mobile-top-bar{
     list-style:none;
     font-size:15px;
@@ -156,5 +153,25 @@ footer .footer-bar li a{
     color:#ffffff;
     text-decoration:none;
     padding:10px;
+  }
+  footer{
+    width:auto;
+    height:auto;
+  }
+  footer .container{
+    display:block;
+    text-align:center;
+    height:auto;
+  }
+  footer .site-name{
+    line-height:80px;
+  }
+  footer .footer-bar{
+    margin:0;
+    padding:0;
+  }
+  footer .search-form{
+    display:block;
+    margin:0;
   }
 }
