@@ -19,8 +19,8 @@
 
           <?php get_template_part('includes/section','archive');?>
 
-          <?php previous_posts_link();?>
-          <?php next_posts_link();?>
+          <span class="previous"><?php previous_posts_link();?></span>
+          <span class="next"><?php next_posts_link();?><span>
       </div>
     </section>
 

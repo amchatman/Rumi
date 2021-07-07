@@ -56,7 +56,6 @@ nav .top-bar li a:hover{
   border:1px solid #ffffff;
   border-top-left-radius:8px;
   border-bottom-left-radius:8px;
-
 }
 .search-input::placeholder{
   padding-left:10px;
@@ -157,6 +156,64 @@ footer .footer-bar li a{
   margin-top:20px;
   margin-bottom:100px;
 }
+/*Widget Side Bar styling section*/
+.col-lg-3 ul{
+  padding-left:0;
+}
+.col-lg-3 li{
+  list-style-type:none;
+  text-align:center;
+}
+.col-lg-3 a{
+  color:#55A6A6;
+  text-decoration:none;
+}
+.widget-title{
+  text-align:center;
+}
+/*Blog content styling*/
+.col-lg-9{
+margin:0;
+padding:0;
+}
+.card{
+  margin:20px;
+}
+.card-body{
+  margin:0;
+  padding:0;
+}
+.card-body img{
+  margin:15px;
+  padding-top:10px;
+  float:left;
+}
+.blog-content{
+}
+.blog-content h3{
+  margin:15px;
+}
+.date{
+  font-size:12px;
+}
+.blog-content p{
+  margin:0;
+}
+.btn-success{
+  background-color:#55A6A6;
+  border-color:#55A6A6;
+  float:right;
+  margin:15px;
+}
+.btn-success:hover{
+  background-color:#55A6A6;
+  border-color:#55A6A6;
+}
+.previous a,.next a{
+  color:#EF8476;
+  padding-left:25px;
+}
+
 @media screen and (max-width:1024px){
   nav .top-bar{
     margin:0;

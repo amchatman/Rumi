@@ -13,7 +13,7 @@
 
     <?php
     $tags = get_the_tags();
-    foreach($tags as $tag):?>
+    foreach((array)$tags as $tag):?>
 
         <a href="<?php echo get_tag_link($tag->term_id);?>">
             <?php echo $tag->name; ?>
