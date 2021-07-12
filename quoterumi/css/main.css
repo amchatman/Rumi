@@ -67,6 +67,12 @@ nav .top-bar li a:hover{
   color:#ffffff;
   background-color:#5BA6A7;
   border:1px solid #5BA6A7;
+  border-top-right-radius:8px;
+  border-bottom-right-radius:8px;
+}
+.search-icon{
+  padding-top:2px;
+  padding-bottom:2px;
 }
 .header-image{
   width:100%;
@@ -308,7 +314,6 @@ footer .search-form{
       position:relative;
       right:4px;
   }
-
   .wpcf7-form{
     margin-top:40px;
   }
@@ -322,5 +327,15 @@ footer .search-form{
   .wpcf7-submit{
   margin:30px 50px;
   width:250px;
+  }
+  .blog-content h3, .blog-content p,.date{
+    text-align:center;
+  }
+  .date{
+    display:block;
+  }
+  .blog-btn-section{
+    justify-content:center;
+    float:none;
   }
 }
