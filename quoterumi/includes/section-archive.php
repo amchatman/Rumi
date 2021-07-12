@@ -26,6 +26,7 @@
 
         <div class="blog-btn-section">
           <p class="comment-number">
+            <span class="material-icons-outlined question-anwser-icon">question_answer</span>
             <?php comments_number( 'No Comments', 'one Comments', '(%) Comments' ); ?>
           </p>
 
