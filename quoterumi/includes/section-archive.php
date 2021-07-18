@@ -18,8 +18,16 @@
       <div class="blog-content">
 
         <h3><?php the_title();?></h3>
-        <span class="date"><?php echo get_the_date()?></span>
-        <p class="author">Posted by:<span class="author-name"> <?php echo $fname;?> <?php echo $lname;?></span></p>
+        <span class="date">
+          <span class="material-icons-outlined calendar-today">calendar_today</span>
+            <?php echo get_the_date()?>
+        </span>
+
+        <p>Posted by:
+          <span class="author-name">
+            <?php echo $fname;?> <?php echo $lname;?>
+          </span>
+        </p>
 
         <?php the_excerpt(); ?>
         <hr>

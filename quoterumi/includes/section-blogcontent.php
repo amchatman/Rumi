@@ -7,11 +7,21 @@
         $lname  = get_the_author_meta('last_name');
       ?>
 
-      <span class="date"><?php echo get_the_date()?></span>
-      <p>Posted by: <span class="author-name"><?php echo $fname;?> <?php echo $lname;?></span></p>
+
+      <span class="date">
+        <span class="material-icons-outlined calendar-today">calendar_today</span>
+        <?php echo get_the_date()?>
+      </span>
+
+      <p class="author">Posted by:
+        <span class="author-name">
+        <?php echo $fname;?> <?php echo $lname;?>
+        </span>
+    </p>
 
       <div class="blog-content"><?php the_content(); ?></div>
 
+      <div class="tag-content">
       <?php
       $tags = get_the_tags();
       foreach((array)$tags as $tag):?>
@@ -32,8 +42,8 @@
       <?php echo $cat->name;?>
       </a>
     <?php endforeach; ?>
-
     </div>
+  </div>
 
   <?php comments_template();?>
 

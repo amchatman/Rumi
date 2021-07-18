@@ -200,7 +200,7 @@ padding:0;
 .blog-content h3{
   margin:15px;
 }
-.date{
+.date, .date span{
   font-size:12px;
 }
 .blog-content p{
@@ -258,14 +258,29 @@ padding:0;
   width:70%;
   left:150px;
 }
+.comment-body{
+  margin-top:35px;
+}
 .commentlist,#comments{
   left:100px;
+}
+.comment-form a{
+  text-decoration:none;
+  color:#5BA6A7;
 }
 .comment-form-comment{
   position:relative;
 }
 .comment-form-comment label{
   display:none;
+}
+.commentlist li a{
+  color:#5BA6A7;
+  text-decoration:none;
+  font-style:normal;
+}
+.comment-meta{
+  margin-top:15px;
 }
 .submit{
   background-color:#55A6A6;
@@ -291,8 +306,6 @@ footer .search-form{
     margin-top:0;
     margin-bottom:0;
   }
-
-
 }
 @media screen and (max-width:480px){
   nav .top-bar{
@@ -363,5 +376,36 @@ footer .search-form{
   .blog-btn-section{
     justify-content:center;
     float:none;
+  }
+  .blog-title{
+    position:relative;
+    left:0;
+    width:100%;
+  }
+  .blog-post{
+    margin:0;
+    left:0;
+    width:100%;
+  }
+  .author{
+    text-align:center;
+  }
+  .tag-content {
+    margin-left:10px;
+    margin-right:10px;
+  }
+  #comments{
+    left:0;
+    width:100%;
+  }
+  ol.commentlist{
+    left:0;
+    font-size:14px;
+  }
+  .comment-respond{
+    left:0;
+  }
+  textarea#comment{
+    width:269px;
   }
 }
