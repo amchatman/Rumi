@@ -196,6 +196,8 @@ padding:0;
   margin:15px;
   padding-top:10px;
   float:left;
+  max-width:200px;
+  max-height:250px;
 }
 .blog-content h3{
   margin:15px;
