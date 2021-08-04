@@ -16,7 +16,6 @@
     </div>
 
     <div class="col-lg-9">
-        <h1><?php the_title();?></h1>
 
         <?php if(has_post_thumbnail()):?>
 
