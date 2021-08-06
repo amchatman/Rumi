@@ -18,10 +18,10 @@
       <div class="blog-content">
 
         <h3><?php the_title();?></h3>
-        <span class="date">
+        <div class="date">
           <span class="material-icons-outlined calendar-today">calendar_today</span>
             <?php echo get_the_date()?>
-        </span>
+        </div>
 
         <p>Posted by:
           <span class="author-name">

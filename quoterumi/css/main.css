@@ -216,6 +216,10 @@ padding:0;
 .blog-content h3{
   margin:15px;
 }
+.date{
+  margin-left:10px;
+  padding:10px;
+}
 .date, .date span{
   font-size:12px;
 }
@@ -322,6 +326,7 @@ footer .search-form{
     margin-bottom:0;
   }
 }
+/*Mobil Phones sizes*/
 @media screen and (max-width:480px){
   nav .top-bar{
     display:none;
@@ -382,8 +387,15 @@ footer .search-form{
   .blog-content h3, .blog-content p,.date{
     text-align:center;
   }
+  .card-body img{
+    display:block;
+    float:none;
+    margin:0 auto;
+  }
   .date{
     display:block;
+    margin:0;
+    padding:0;
   }
   .blog-btn-section{
     justify-content:center;
