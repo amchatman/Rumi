@@ -40,8 +40,11 @@
      </div>
 
   </div>
-  
-    <div class="copyright"> Copyright 2021 <a href="#">Terms and Private Policy</a></div>
+
+    <div class="copyright">
+      <p> Copyright 2021 <a href="#">Terms and Private Policy</a></p>
+      <p>Theme Created by:<a href="https://github.com/amchatman">amchatman</a></p> 
+    </div>
 </footer>
 <?php wp_footer();?>
 </body>

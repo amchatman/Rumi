@@ -141,8 +141,13 @@ footer .footer-bar li a{
   color:#ffffff;
   padding:15px;
 }
+.copyright p{
+  display:inline;
+  font-size:12px;
+}
 .copyright a{
   color:#ffffff;
+  font-size:12px;
 }
 /*Contact Styling starts here*/
 .wpcf7-form{
@@ -431,5 +436,11 @@ footer .search-form{
   }
   textarea#comment{
     width:269px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .site-name{
+    position:relative;
+    left:500px;
   }
 }
