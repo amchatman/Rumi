@@ -438,9 +438,10 @@ footer .search-form{
     width:269px;
   }
 }
+/*Large Desktop Screesns*/
 @media screen and (min-width: 1900px) {
   .site-name{
     position:relative;
-    left:500px;
+    right:500px;
   }
 }
